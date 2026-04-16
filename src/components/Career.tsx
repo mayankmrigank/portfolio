@@ -15,58 +15,44 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Co-Founder</h4>
-                <h5>CallHQ.ai</h5>
+                <h4>AI/ML Intern</h4>
+                <h5>AICTE (Google for Developers Program)</h5>
               </div>
-              <h3>NOW</h3>
+              <h3>Jan–Mar 2025</h3>
             </div>
             <p>
-              Building CallHQ.ai, a voice AI platform for
-              automating customer calls, support, and conversions.
+              Proficient in Artificial Intelligence and Machine Learning through
+              Google for Developers program. Hands-on experience in TensorFlow,
+              building and training ML models for real-world applications.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Adobe</h4>
-                <h5>6+ years · Noida</h5>
+                <h4>Data Analyst Intern</h4>
+                <h5>AICTE (Alteryx)</h5>
               </div>
-              <h3>2017–24</h3>
+              <h3>Oct–Dec 2024</h3>
             </div>
             <p>
-              Senior Lead Software Engineer (Feb 2024 – May 2024). Lead Software
-              Engineer (Feb 2021 – Feb 2024). Software Engineer II (Dec 2017 –
-              Feb 2021): internationalization, globalization, and localization for
-              Adobe Technical Communication Suite; functional and linguistic testing
-              strategy; in-house tooling; collaboration with product and engineering
-              for high-quality localized releases.
+              Proficient in data manipulation, modeling, and transformation using
+              Alteryx. Skilled in creating automated workflows, optimizing data
+              processes, and generating insights for decision-making.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Consultant</h4>
-                <h5>Genpact Headstrong </h5>
+                <h4>Web Development Intern</h4>
+                <h5>Central Coalfields Limited · Ranchi</h5>
               </div>
-              <h3>2016–17</h3>
+              <h3>May–Jun 2024</h3>
             </div>
             <p>
-              Sep 2016 – Nov 2017. Developed and maintained WCF services consumed
-              by the UI; deployment support across environments; NUnit tests and
-              coverage; bug fixes from QA and users; database work.
-            </p>
-          </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>Sf Engineer</h4>
-                <h5>Infogain</h5>
-              </div>
-              <h3>2013-16</h3>
-            </div>
-            <p>
-              Software engineering across enterprise projects, contributing to
-              design, development, and delivery of business applications.
+              Designed and developed a responsive web application using HTML, CSS,
+              JavaScript, and PHP to host and manage two quizzes. Implemented
+              dynamic user interface elements, client-server communication, and
+              real-time data handling.
             </p>
           </div>
         </div>

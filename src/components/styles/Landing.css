@@ -177,24 +177,65 @@
 
 .landing-intro h2 {
   margin: 0;
-  color: var(--accentColor);
   font-size: 22px;
   font-weight: 300;
-  letter-spacing: 2px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #5eead4, #67e8f9);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  animation: fadeSlideIn 1s ease-out forwards;
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+@keyframes fadeSlideIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .landing-intro h1 {
   margin: 0;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   font-size: 28px;
-  line-height: 28px;
-  font-weight: 500;
+  line-height: 32px;
+  font-weight: 700;
   font-family: "Geist", sans-serif;
+  color: #ffffff;
+  text-shadow: 0 0 40px rgba(94, 234, 212, 0.15), 0 0 80px rgba(94, 234, 212, 0.05);
+  animation: nameReveal 1.2s ease-out forwards;
+  animation-delay: 0.3s;
+  opacity: 0;
 }
 
-/* .landing-intro h1 span {
-   font-weight: 200; 
-} */
+@keyframes nameReveal {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+    letter-spacing: 8px;
+  }
+  60% {
+    letter-spacing: 4px;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+    letter-spacing: 3px;
+  }
+}
+
+.landing-intro h1 span {
+  background: linear-gradient(135deg, #ffffff 0%, #a5f3fc 50%, #5eead4 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  font-weight: 600;
+}
 
 .landing-info {
   position: absolute;
@@ -207,10 +248,17 @@
 
 .landing-info h3 {
   font-size: 22px;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   font-weight: 300;
-  color: var(--accentColor);
+  background: linear-gradient(90deg, #5eead4, #a5f3fc);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
   margin: 0;
+  animation: fadeSlideIn 1s ease-out forwards;
+  animation-delay: 0.5s;
+  opacity: 0;
 }
 
 .landing-info h2 {
@@ -225,7 +273,8 @@
   display: flex;
   flex-wrap: nowrap;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
+  color: #ffffff;
 }
 
 .landing-h2-info-1 {
@@ -234,14 +283,19 @@
 }
 
 h2.landing-info-h2 {
-  color: #14b8a6;
+  background: linear-gradient(135deg, #14b8a6, #22d3ee, #67e8f9);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
   font-size: 42px;
   width: 120%;
   margin: 0;
   font-family: "Geist", sans-serif;
-  font-weight: 600;
+  font-weight: 700;
   position: relative;
   margin-left: -5px;
+  filter: drop-shadow(0 0 20px rgba(94, 234, 212, 0.3));
 }
 
 .landing-h2-2 {
@@ -281,7 +335,7 @@ h2.landing-info-h2 {
 
   .landing-intro h1 {
     font-size: 30px;
-    line-height: 30px;
+    line-height: 34px;
   }
 
   .landing-info h2 {
@@ -305,7 +359,7 @@ h2.landing-info-h2 {
 
   .landing-intro h1 {
     font-size: 40px;
-    line-height: 35px;
+    line-height: 40px;
   }
 
   .landing-info h3 {
@@ -379,7 +433,7 @@ h2.landing-info-h2 {
 
   .landing-intro h1 {
     font-size: 60px;
-    line-height: 55px;
+    line-height: 58px;
   }
 
   .landing-info h3 {
