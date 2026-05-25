@@ -9,14 +9,12 @@ const projects = [
     category: "AI-Based Paper Evaluation System",
     tools: "Python, Flask, Google Gemini API, REST APIs, Poppler",
     image: "/images/project1.png",
-    link: "https://github.com/mayankmrigank/Public-main",
   },
   {
     title: "AI Meeting Intelligence",
     category: "End-to-End Meeting Analysis System",
     tools: "Python, Whisper, Mistral LLM, React, PostgreSQL",
     image: "/images/project2.png",
-    link: "https://github.com/mayankmrigank/Public-main",
   },
 ];
 

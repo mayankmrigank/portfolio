@@ -244,7 +244,7 @@
   transition: 0.4s;
 }
 
-.work-image a:hover .work-image-in::after {
+.work-image-in:hover::after {
   border-color: rgba(94, 234, 212, 0.3);
   box-shadow: 0 0 30px rgba(94, 234, 212, 0.08);
 }
@@ -269,11 +269,11 @@
   color: #5eead4;
 }
 
-.work-image a:hover {
+.work-image-in:hover {
   color: inherit;
 }
 
-.work-image a:hover .work-link {
+.work-image-in:hover .work-link {
   opacity: 1;
 }
 
@@ -294,7 +294,7 @@
   transition: 0.5s;
 }
 
-.work-image a:hover img {
+.work-image-in:hover img {
   transform: scale(1.02);
 }
 
